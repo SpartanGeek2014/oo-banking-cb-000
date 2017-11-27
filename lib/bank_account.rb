@@ -21,7 +21,7 @@ class BankAccount
   end
 
   def valid?
-    balance > 0 && status == "open" #this part was driving me up a wall
+    balance > 0 && status == "open"
   end
 
 end
